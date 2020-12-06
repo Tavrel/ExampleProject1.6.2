@@ -6,5 +6,6 @@ public class Regular {
         String text = "aba aba a!a abba adca abea";
         Pattern pattern = Pattern.compile("a..a");
         Matcher matcher = pattern.matcher(text);
+        System.out.println(matcher.find());
     }
 }
